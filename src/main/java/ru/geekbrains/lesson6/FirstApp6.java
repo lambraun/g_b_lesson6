@@ -42,5 +42,9 @@ public class FirstApp6 {
         }
         animal5.run();
         animal5.swim();
+
+        System.out.println();
+        System.out.println("Всего " + Cat.getCounter() + " кота(ов) и " + Dog.getCounter() + " собак(и)");
+
     }
 }
